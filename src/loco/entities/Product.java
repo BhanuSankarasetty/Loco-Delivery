@@ -4,7 +4,7 @@ import java.util.List;
 import loco.observer.OrderNotifier;
 
 public class Product {
-    private final String productId;
+    // private final String productId;
     private final String name;
     private final double price;
     private int quantity;
@@ -13,7 +13,7 @@ public class Product {
     private final int LOW_STOCK_THRESHOLD = 3;
 
     public Product(String productId, String name, double price, int quantity, Vendor vendor) {
-        this.productId = productId;
+        // this.productId = productId;
         this.name = name;
         this.price = price;
         this.quantity = quantity;

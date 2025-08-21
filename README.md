@@ -71,6 +71,10 @@ java loco.Loco
 ```
 Note: Ensure your package declaration matches the folder structure (package loco; in all .java files).
 
+- LLD
+
+![Preview Screenshot](./LLD.png)
+
 ## Folder Structure
 
 ```

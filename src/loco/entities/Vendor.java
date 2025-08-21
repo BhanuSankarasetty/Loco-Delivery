@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Vendor {
-    private final String vendorId;
+    // private final String vendorId;
     private final String name;
     private boolean approved = false;
     private final List<Product> products = new ArrayList<>();
@@ -13,7 +13,10 @@ public class Vendor {
     public void addOrder(Order order) { orderHistory.add(order); }
     public List<Order> getOrderHistory() { return new ArrayList<>(orderHistory); }
 
-    public Vendor(String vendorId, String name) { this.vendorId = vendorId; this.name = name; }
+    public Vendor(String vendorId, String name) { 
+        // this.vendorId = vendorId;
+        this.name = name;
+    }
 
     public void addProduct(Product product) { products.add(product); }
     public void removeProduct(Product product) { products.remove(product); }
